@@ -1,5 +1,5 @@
-import { normalize } from 'node:path'
-import { promisify } from 'node:util'
+import { normalize } from 'path'
+import { promisify } from 'util'
 
 import Dependencies from '@/src/types/dependencies'
 

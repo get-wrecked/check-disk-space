@@ -1,5 +1,5 @@
-import { access } from 'node:fs/promises'
-import { normalize, sep } from 'node:path'
+import { access } from 'fs/promises'
+import { normalize, sep } from 'path'
 
 type Dependencies = {
 	platform: NodeJS.Platform
