@@ -3,7 +3,7 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var child_process = require('child_process');
-var promises = require('fs/promises');
+var promises = require('fs').promises;
 var os = require('os');
 var path = require('path');
 var process = require('process');
